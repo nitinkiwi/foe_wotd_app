@@ -69,6 +69,7 @@ class App extends React.Component {
        { this.randomWord() }
        Make a sensible git commit
         */}
+        { this.randomWord() }
       </>
     )
   }
