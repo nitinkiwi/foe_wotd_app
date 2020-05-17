@@ -38,14 +38,14 @@ const words = [
     {"word":"gratitude", "date":"2020-05-14", "meaning":"to be thankful for what you have"},
     {"word":"persevere", "date":"2020-05-15", "meaning":"to keep going even when you are struggling and times are hard"}
   ]
-  
+
 class App extends React.Component {
   randomWord() {
     // Step 2
     // choose a random word from the words const
     // assign the randomly chosen word to this variable below
     // Make a sensible git commit
-    let word
+    let word = words[Math.floor(Math.random() * words.length)];
 
     // Step 3
     // fill out the h2 headings below with properties of the word
