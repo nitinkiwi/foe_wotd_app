@@ -53,9 +53,9 @@ class App extends React.Component {
     // Make a sensible git commit
     return(
       <>
-      <h2></h2>
-      <h2></h2>
-      <h2></h2>
+      <h2>{word.word}</h2>
+      <h2>{word.meaning}</h2>
+      <h2>{word.date}</h2>
       </>
     )
   }
