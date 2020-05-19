@@ -5,7 +5,7 @@ import './index.css';
 const words = [
     {"word":"responsibility", "date":"2020-04-01", "meaning":"to take action when needed"},
     {"word":"first time", "date":"2020-04-02", "meaning":"something new"},
-    {"word":"stress", "date":"2020-04-03", "meaning":"felling upset, tired, and frustrated about something"},
+    {"word":"stress", "date":"2020-04-03", "meaning":"feeling upset, tired, and frustrated about something"},
     {"word":"self-care", "date":"2020-04-06", "meaning":"keeping yourself healthy and happy"},
     {"word":"helpful", "date":"2020-04-07", "meaning":"being of use to somebody"},
     {"word":"hopeful", "date":"2020-04-08", "meaning":"wanting something to happen"},
