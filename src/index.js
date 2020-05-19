@@ -32,7 +32,8 @@ const words = [
     {"word":"conscientious", "date":"2020-05-12", "meaning":"being thoughtful and being precise"},
     {"word":"adventurous", "date":"2020-05-13", "meaning":"to think outside the box and to push your limits"},
     {"word":"gratitude", "date":"2020-05-14", "meaning":"to be thankful for what you have"},
-    {"word":"persevere", "date":"2020-05-15", "meaning":"to keep going even when you are struggling and times are hard"}
+    {"word":"persevere", "date":"2020-05-15", "meaning":"to keep going even when you are struggling and times are hard"},
+    {"word":"closure", "date":"2020-05-18", "meaning":"when you recognize the good in something coming to an end"}
   ]
 
 class App extends React.Component {
