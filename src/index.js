@@ -37,9 +37,9 @@ const words = [
 
 class App extends React.Component {
   randomWord() {
-    
+
     let word = words[Math.floor(Math.random() * words.length)];
-    
+
     return(
       <>
       <h2>{word.word}</h2>
