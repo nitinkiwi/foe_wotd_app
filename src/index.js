@@ -36,6 +36,13 @@ const words = [
   ]
 
 class App extends React.Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			word: ""
+		}
+	}
+
   randomWord() {
 
     let word = words[Math.floor(Math.random() * words.length)];
