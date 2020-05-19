@@ -63,7 +63,7 @@ class App extends React.Component {
   render() {
     return(
       <>
-      <h1>Hello World</h1>
+      <h1>Foothill Elementary Words Of The Day</h1>
       {/* Step 4
        Call the randomWord function here like this
        { this.randomWord() }
