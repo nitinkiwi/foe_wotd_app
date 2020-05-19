@@ -2,10 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// Step 1
-// Add the words array here as a const
-// const words = .......
-// Make a sensible git commit
 const words = [
     {"word":"responsibility", "date":"2020-04-01", "meaning":"to take action when needed"},
     {"word":"first time", "date":"2020-04-02", "meaning":"something new"},
@@ -41,16 +37,9 @@ const words = [
 
 class App extends React.Component {
   randomWord() {
-    // Step 2
-    // choose a random word from the words const
-    // assign the randomly chosen word to this variable below
-    // Make a sensible git commit
+    
     let word = words[Math.floor(Math.random() * words.length)];
-
-    // Step 3
-    // fill out the h2 headings below with properties of the word
-    // for example: { word.word } { word.meaning }
-    // Make a sensible git commit
+    
     return(
       <>
       <h2>{word.word}</h2>
@@ -64,11 +53,6 @@ class App extends React.Component {
     return(
       <>
       <h1>Foothill Elementary Words Of The Day</h1>
-      {/* Step 4
-       Call the randomWord function here like this
-       { this.randomWord() }
-       Make a sensible git commit
-        */}
         { this.randomWord() }
       </>
     )
