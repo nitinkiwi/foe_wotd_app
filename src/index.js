@@ -58,6 +58,7 @@ class App extends React.Component {
     return(
       <>
       <h1>Foothill Elementary Words Of The Day</h1>
+      <em>Every day during home learning, Principal Vanderpol announced a new word of the day. Here they are!</em>
       <h2>{this.state.word}</h2>
       <h2>{this.state.meaning}</h2>
       <h2>{this.state.date}</h2>
