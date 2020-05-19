@@ -39,14 +39,18 @@ class App extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			randomWord: ''
+			word: '',
+			meaning: '',
+			date: ''
 		}
 	}
 
   randomWord() {
-    let word = words[Math.floor(Math.random() * words.length)];
+    let {word, meaning, date} = words[Math.floor(Math.random() * words.length)];
     this.setState({
-    	randomWord: word
+    	word: word.toUpperCase(),
+    	meaning: meaning,
+    	date: date
     })
   }
 
@@ -54,9 +58,9 @@ class App extends React.Component {
     return(
       <>
       <h1>Foothill Elementary Words Of The Day</h1>
-      <h2>{this.state.randomWord.word}</h2>
-      <h2>{this.state.randomWord.meaning}</h2>
-      <h2>{this.state.randomWord.date}</h2>
+      <h2>{this.state.word}</h2>
+      <h2>{this.state.meaning}</h2>
+      <h2>{this.state.date}</h2>
       <button className="button button-10" onClick={() => this.randomWord()}>
       	Click to get a new word
       </button>
