@@ -17,7 +17,7 @@ const words = [
     {"word":"curious", "date":"2020-04-16", "meaning":"to wonder about something to explore new things"},
     {"word":"beautiful", "date":"2020-04-21", "meaning":"wonderful and nice"},
     {"word":"sincere", "date":"2020-02-22", "meaning":"to really mean what you say"},
-    {"word":"bright", "date":"2020-04-23", "meaning":"to be smart or the have a light"},
+    {"word":"bright", "date":"2020-04-23", "meaning":"to be smart"},
     {"word":"powerful", "date":"2020-04-27", "meaning":"to be full of power"},
     {"word":"loving", "date":"2020-04-28", "meaning":"to show love to"},
     {"word":"clever", "date":"2020-04-29", "meaning":"to have quick thinking"},
