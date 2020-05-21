@@ -33,9 +33,9 @@ const words = [
     {"word":"adventurous", "date":"2020-05-13", "meaning":"To think outside the box and to push your limits"},
     {"word":"gratitude", "date":"2020-05-14", "meaning":"To be thankful for what you have"},
     {"word":"persevere", "date":"2020-05-15", "meaning":"To keep going even when you are struggling and times are hard"},
-    {"word":"closure", "date":"2020-05-18", "meaning":"When you recognize the good in something coming to an end"}
-    {"word":"together", "date":"2020-05-19", "meaning":"When you are with someone"}
-    {"word":"leadership", "date":"2020-05-20", "meaning":"When you bring people together and work towards a common goal"}
+    {"word":"closure", "date":"2020-05-18", "meaning":"When you recognize the good in something coming to an end"},
+    {"word":"together", "date":"2020-05-19", "meaning":"When you are with someone"},
+    {"word":"leadership", "date":"2020-05-20", "meaning":"When you bring people together and work towards a common goal"},
     {"word":"Celebrate", "date":"2020-05-21", "meaning":"To be happy and recognize something special with a joyful event"}
   ]
 
